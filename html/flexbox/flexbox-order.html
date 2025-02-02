@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | Order</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .atas {
+            margin: auto;
+            background-color: bisque;
+            padding: 5px;
+            color: white;
+            display: flex;
+            
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 3px;
+            margin-top: 11px;
+            background-color: white;
+            padding: 5px;
+            color: black;
+            border-radius: 5px;
+            color: bisque;
+        }
+
+        li:hover {
+            padding: 7px;
+        }
+
+        .container {
+            background-color: grey;
+            display: flex;
+            margin: 20px;
+            padding: 10px;
+            text-align: justify;
+            border-radius: 10px;
+        }
+
+        .content {
+            margin: 5px;
+            padding: 5px;
+            border: 1px, solid, black;
+            border-radius: 5px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="atas">
+        <h1>
+            Flexbox | Order  
+        </h1>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="content" style="order: 3;">
+            <h3>
+                1
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit hic, explicabo odio incidunt ea magnam nesciunt veritatis doloribus illum obcaecati asperiores corrupti, quidem numquam accusantium alias dicta dolorum. Temporibus, nobis.
+            </p>
+        </div>
+        <div class="content">
+            <h3>
+                2
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam error aut laboriosam sunt ea qui. Veritatis distinctio aut, officia, velit dicta vero dolor dolores aliquid ratione ipsam consequatur at.
+            </p>
+        </div>
+        <div class="content">
+            <h3>
+                3
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam error aut laboriosam sunt ea qui. Veritatis distinctio aut, officia, velit dicta vero dolor dolores aliquid ratione ipsam consequatur at.
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
