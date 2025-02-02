@@ -30,6 +30,7 @@
             color: black;
             border-radius: 5px;
             color: bisque;
+            justify-content: end;
         }
 
         li:hover {
@@ -52,13 +53,19 @@
             border-radius: 5px;
             background-color: whitesmoke;
         }
+
+        .k1, .k3 {
+            flex-basis: 200px;
+            flex-shrink: 0;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="atas">
         <h1>
-            Flexbox | Order  
+            Flexbox | Basis  
         </h1>
         <ul>
             <li>home</li>
@@ -68,7 +75,7 @@
     </div>
 
     <div class="container">
-        <div class="content">
+        <div class="content k1">
             <h3>
                 1
             </h3>
@@ -76,7 +83,7 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit hic, explicabo odio incidunt ea magnam nesciunt veritatis doloribus illum obcaecati asperiores corrupti, quidem numquam accusantium alias dicta dolorum. Temporibus, nobis.
             </p>
         </div>
-        <div class="content">
+        <div class="content k2">
             <h3>
                 2
             </h3>
@@ -84,7 +91,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam error aut laboriosam sunt ea qui. Veritatis distinctio aut, officia, velit dicta vero dolor dolores aliquid ratione ipsam consequatur at.
             </p>
         </div>
-        <div class="content">
+        <div class="content k3">
             <h3>
                 3
             </h3>
