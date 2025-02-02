@@ -39,7 +39,7 @@ h2 {
     display: inline-block;
     margin: 10px;
     width: 200px;
-    vertical-align: top;
+    height: auto;
     padding: 5px;
     border-radius: 10px;
 }
